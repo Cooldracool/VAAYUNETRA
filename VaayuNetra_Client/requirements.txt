@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+requests
+httpx
+numpy
+python-multipart
+pillow
+sqlalchemy
+ultralytics
