@@ -1,0 +1,14 @@
+services:
+  vayunetra:
+    build: .
+    image: vayunetra:latest
+    container_name: vayunetra
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist uploaded citizen photo evidence outside the container lifecycle
+      - uploads_data:/app/uploads
+    restart: unless-stopped
+
+volumes:
+  uploads_data:

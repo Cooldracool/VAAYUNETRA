@@ -1,0 +1,13 @@
+.git
+.gitignore
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+docs/
+AGENTS.md
+Dockerfile
+docker-compose.yml
+.dockerignore
